@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name = "Description" CONTENT = "Site de vente de montres">
+    <META NAME = "Keywords" CONTENT = "shop, watch">
+    <title>Contact - WatchShop</title>
+    <link href="./index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <a href="./index.html"><img src="./assets/logo.svg" class="title"></a>
+            <p>Watchmaker since 1970</p>
+            <p>Luxury watches and watch parts</p>
+            <hr class="bar" color="white" size="2" noshade width="75%">
+            
+            <!-- Menu -->
+            
+            <ul class="nav">
+                <li class="navitem"><a href="./index.html">Home</a></li>
+                <li class="navitem"><a href="./history.html">History</a></li>
+                <li class="navitem"><a href="./shop.html">Shop</a></li>
+                <li class="navitem"><a href="./contact.html"><i class="material-icons">watch</i>Contact</a></li>
+            </ul>
+        </header>
+        <div class="contact">
+
+            <div class="bcontact" align="center">  Email : <a href="mailto:pierre.joachim.pay@gmail.com">pierre.joachim.pay@gmail.com</a>
+                <p>
+                    <br/>+33667882463<br/>
+                    WatchShop and Co<br/>
+                    6 Place Vendome<br/>
+                    75000 Paris<br/><br/>
+                    Pierre JOACHIM   International Aliexpress Seller<br/>
+                    Copyright © 2019
+                </p>
+            
+            </div>
+
+            <form class="form-contact" id="form-contact">
+                <div class="form-item">
+                    <label for="email">Type of request:<span title="A type of request is required">*</span> </label>
+                    <select name="type">
+                        <option value="buy">Buy Watch</option>
+                        <option value="ass">After-sales service</option>
+                        <option value="ship">Shipping</option>
+                        <option value="info">Product information</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <label for="email">E-mail adress:<span title="An E-Mail adress is required">*</span> </label>
+                    <input type="text" name="email" placeholder="Enter email" required>
+                </div>
+                <div class="form-item">
+                    <label for="phone">Phone number: </label>
+                    <input type="tel" name="phone" placeholder="Ex: +33625147953">
+                </div>
+                <div class="form-item">
+                    <label for="message">Message:<span title="A message is required">*</span> </label>
+                    <input type="text" name="message" required placeholder="Send a message">
+                </div>
+                <div class="form-item" align="center">
+                    <button type="submit" form="form-contact" value="Submit">Submit</button>
+                </div>
+                
+            </form>
+            
+        </div> 
+        <footer>
+            <a href="https://wix.com/"><img src="./assets/wix.svg"></a>
+        </footer>
+    </div>
+</body>
+</html>
